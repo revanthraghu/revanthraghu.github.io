@@ -1,3 +1,3 @@
-# Revanth's Portfolio Page
+# Revanth's Portfolio
 
 ***work in progress***

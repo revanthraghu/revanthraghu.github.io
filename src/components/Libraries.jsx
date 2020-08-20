@@ -66,13 +66,13 @@ function Libraries() {
                 <img src="bootstrap.png" alt="" />
             </div>
             <div>
-                <img style={{transform: 'scale(1.1)'}} src="react.svg" alt="" />
-            </div>
-            <div>
                 <img src="mongodb.svg" alt="" />
             </div>
             <div>
                 <img src="expressjs.svg" alt="" />
+            </div>
+            <div>
+                <img style={{transform: 'scale(1.1)'}} src="react.svg" alt="" />
             </div>
             <div>
                 <img src="nodejs.svg" alt="" />

@@ -99,8 +99,20 @@ function Projects() {
                 </div>
                 <div>
                     <a style={{width: '100%'}} href="https://partake-clone.netlify.app/">
-                        <img style={{width: '100%', height: '200px', display: 'block', overflow: 'hidden', objectFit: 'cover'}} src="/partake.jpg" alt="e-commerce website clone" />
+                        <img style={{width: '100%', height: '200px', display: 'block', objectFit: 'cover'}} src="/partake.jpg" alt="e-commerce website clone" />
                         <h4>e-Commerce Website Clone</h4>
+                    </a>
+                    <p>
+                        This was the first site I built. 
+                        It has a lot of bad UI and design bugs, 
+                        but this project reminds me of where I started
+                        and how much I have progressed.
+                    </p>
+                </div>
+                <div>
+                    <a style={{width: '100%'}} href="https://oneweather.netlify.app/">
+                        <img style={{width: '100%', height: '200px', display: 'block', objectFit: 'cover'}} src="/oneweather.png" alt="e-commerce website clone" />
+                        <h4>One Weather</h4>
                     </a>
                     <p>
                         This was the first site I built. 

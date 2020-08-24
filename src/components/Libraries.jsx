@@ -69,7 +69,9 @@ function Libraries() {
                 <img src="mongodb.svg" alt="" />
             </div>
             <div>
-                <img src="expressjs.svg" alt="" />
+                <div>
+                    <img src="expressjs.svg" alt="" />
+                </div>
             </div>
             <div>
                 <img style={{transform: 'scale(1.1)'}} src="react.svg" alt="" />

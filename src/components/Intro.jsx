@@ -43,11 +43,12 @@ const ImageWrapper = styled.div`
     overflow: hidden;
     position: relative;
     img {
-        width: 100%;
-        height: auto;
+        width: 400px;
+        height: 400px;
         display: block;
         position: absolute;
-        top: -15px;
+        object-fit: cover;
+        object-position: -150px;
     }
 `
 
@@ -80,29 +81,32 @@ function Intro() {
     return (
         <MainWrapper>
             <ImageWrapper>
-                <img src="dp.jpg" alt="" />
+                <img src="dp2.jpg" alt="" />
             </ImageWrapper>
             <h1>Revanth Raghu</h1>
             <h2>Full Stack Developer</h2>
             <Contact>
                 <div>
-                    <i class="fas fa-map-marker-alt"></i>
+                    <i className="fas fa-map-marker-alt"></i>
                     Bangalore, India
                 </div>
                 <div>
-                    <i class="fas fa-phone-alt"></i>
+                    <i className="fas fa-phone-alt"></i>
                     +91 9148115695
                 </div>
                 <div>
-                    <i class="fas fa-envelope"></i>
+                    <i className="fas fa-envelope"></i>
                     revabob@gmail.com
                 </div>
             </Contact>
             <p>
                 Hi, I am a web developer proficient in 
                 both front-end and back-end 
-                technologies, and 
-                love what I do.
+                technologies and love what I do. 
+                Take a look at the tech stack I have 
+                worked with and the projects I have worked on.
+                If you like what you see and want to hire me, 
+                call me or dop an email.
             </p>
         </MainWrapper>
     )

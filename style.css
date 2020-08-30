@@ -5,6 +5,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   #loading {
     text-align: center; 
     height: 100vh; 

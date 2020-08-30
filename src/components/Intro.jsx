@@ -106,7 +106,7 @@ function Intro() {
                 Take a look at the tech stack I have 
                 worked with and the projects I have worked on.
                 If you like what you see and want to hire me, 
-                call me or dop an email.
+                give me a call me or dop an email.
             </p>
         </MainWrapper>
     )

@@ -57,6 +57,7 @@ const IntroText = styled.div`
         font-family: 'Righteous', cursive;
         text-align: left;
         margin-left: 90px;
+        width: max-content;
     }
 
     #about-me {
@@ -144,7 +145,7 @@ const IntroText = styled.div`
         }
     }
     
-    @media (max-width: 575px) {
+    @media (max-width: 650px) {
         top: 20px;
         left: 0;
         right: 0;
@@ -226,6 +227,7 @@ class Intro extends React.Component {
     render() {
         return (
             <IntroWrapper>
+                {/* Particles alternate style={{backgroundColor: '#24443f'}} */}
                 <Particles height={'770px'} params={particles}/>
                 <IntroText>
                     <h1 
@@ -261,10 +263,10 @@ class Intro extends React.Component {
                         </div>
                     </div>
                 </IntroText>
-                    <div id="scroll-down" onClick={this.handleClick}>
-                        <h4>SCROLL DOWN</h4>
-                        <div id="chevron"></div>
-                    </div>
+                <div id="scroll-down" onClick={this.handleClick}>
+                    <h4>SCROLL DOWN</h4>
+                    <div id="chevron"></div>
+                </div>
             </IntroWrapper>
         )
 

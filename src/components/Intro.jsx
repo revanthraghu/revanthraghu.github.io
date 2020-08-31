@@ -6,7 +6,7 @@ import particles from '../data/particles.json'
 const IntroWrapper = styled.div`
     position: relative;
     background: #b61924;
-    height: 100vh;
+    min-height: 100vh;
     > h1 {
         position: absolute; 
         top: 1%;
@@ -24,16 +24,17 @@ const IntroWrapper = styled.div`
         cursor: pointer;
         > h4 {
             color: white;
-            letter-spacing: 0.1rem;
+            letter-spacing: 1px;
             margin-bottom: 5px;
+            font-weight: normal;
         }
         #chevron {
             height: 20px;
             width: 20px;
             margin: 0 auto;
             transform: rotate(45deg);
-            border-right: 5px solid white;
-            border-bottom: 5px solid white;
+            border-right: 3px solid white;
+            border-bottom: 3px solid white;
             animation: pulse 2s ease-in-out infinite;
         }
         @keyframes pulse {

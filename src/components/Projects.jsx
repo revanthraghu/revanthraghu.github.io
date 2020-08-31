@@ -38,7 +38,7 @@ function Projects() {
             <ProjectsGrid>
                 <ProjectItem />
                 <div>
-                    <a style={{width: '100%'}} href="https://purehangman.netlify.app/">
+                    <a target="_blank" rel="noopener noreferrer" style={{width: '100%'}} href="https://purehangman.netlify.app/">
                         <img style={{width: '100%', height: '200px', display: 'block'}} src="/hangman.png" alt="my first project" />
                         <h4>Hangman</h4>
                     </a>
@@ -50,7 +50,7 @@ function Projects() {
                     </p>
                 </div>
                 <div>
-                    <a style={{width: '100%'}} href="https://omdbsearch.netlify.app/">
+                    <a target="_blank" rel="noopener noreferrer" style={{width: '100%'}} href="https://omdbsearch.netlify.app/">
                         <img style={{width: '100%', height: '200px', display: 'block'}} src="/omdb_search.png" alt="my first project" />
                         <h4>OMDB Search</h4>
                     </a>
@@ -62,7 +62,7 @@ function Projects() {
                     </p>
                 </div>
                 <div>
-                    <a style={{width: '100%'}} href="https://paper-tic-tac-toe.netlify.app/">
+                    <a target="_blank" rel="noopener noreferrer" style={{width: '100%'}} href="https://paper-tic-tac-toe.netlify.app/">
                         <img style={{width: '100%', height: '200px', display: 'block'}} src="/tic_tac_toe.png" alt="my first project" />
                         <h4>Tic Tac Toe</h4>
                     </a>
@@ -74,7 +74,7 @@ function Projects() {
                     </p>
                 </div>
                 <div>
-                    <a style={{width: '100%'}} href="https://timer-stopwatch.netlify.app/">
+                    <a target="_blank" rel="noopener noreferrer" style={{width: '100%'}} href="https://timer-stopwatch.netlify.app/">
                         <img style={{width: '100%', height: '200px', display: 'block'}} src="/timer.png" alt="my first project" />
                         <h4>Timer and Stopwatch</h4>
                     </a>
@@ -86,7 +86,7 @@ function Projects() {
                     </p>
                 </div>
                 <div>
-                    <a style={{width: '100%'}} href="https://app-todo-react.netlify.app">
+                    <a target="_blank" rel="noopener noreferrer" style={{width: '100%'}} href="https://app-todo-react.netlify.app">
                         <img style={{width: '100%', height: '200px', display: 'block'}} src="/todo.jpg" alt="my first project" />
                         <h4>To-Do App</h4>
                     </a>
@@ -98,7 +98,7 @@ function Projects() {
                     </p>
                 </div>
                 <div>
-                    <a style={{width: '100%'}} href="https://partake-clone.netlify.app/">
+                    <a target="_blank" rel="noopener noreferrer" style={{width: '100%'}} href="https://partake-clone.netlify.app/">
                         <img style={{width: '100%', height: '200px', display: 'block', objectFit: 'cover'}} src="/partake.jpg" alt="e-commerce website clone" />
                         <h4>e-Commerce Website Clone</h4>
                     </a>
@@ -110,7 +110,7 @@ function Projects() {
                     </p>
                 </div>
                 <div>
-                    <a style={{width: '100%'}} href="https://oneweather.netlify.app/">
+                    <a target="_blank" rel="noopener noreferrer" style={{width: '100%'}} href="https://oneweather.netlify.app/">
                         <img style={{width: '100%', height: '200px', display: 'block', objectFit: 'cover'}} src="/oneweather.png" alt="e-commerce website clone" />
                         <h4>One Weather</h4>
                     </a>

@@ -233,6 +233,8 @@ class Intro extends React.Component {
                     <h1 
                     data-aos="fade-up" 
                     data-aos-offset="-100"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-out-back"
                     data-aos-delay="500">
                         Hello,
                     </h1>
@@ -240,6 +242,8 @@ class Intro extends React.Component {
                         <div 
                         data-aos="fade-right" 
                         data-aos-offset="-100"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-out-back"
                         data-aos-delay="500"
                         >
                             <ImageWrapper>
@@ -249,6 +253,8 @@ class Intro extends React.Component {
                         <div
                         data-aos="fade-down" 
                         data-aos-offset="-100"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-out-back"
                         data-aos-delay="500"                        
                         >
                             <h2>

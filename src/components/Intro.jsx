@@ -7,7 +7,7 @@ import particles from '../data/particles.json'
 
 const IntroWrapper = styled.div`
     position: relative;
-    background: #b61924;
+    background: #b61936;
     min-height: 770px;
 
     #scroll-down {
@@ -60,6 +60,35 @@ const IntroText = styled.div`
         width: max-content;
     }
 
+    .about-me-buttons {
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        > button {
+            padding: 10px 20px;
+            margin: 20px;
+            margin-top: 40px;
+            background: white;
+            color: #b61924;
+            font-weight: bold;
+            font-size: larger;
+            border-radius: 3px;
+            letter-spacing: 1px;
+            transition: all 0.3s ease-in-out;
+        }
+        > button:hover {
+            cursor: pointer;
+            box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.67);
+            letter-spacing: 2px;
+            width: max-content;
+            transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+        }
+        > button:active {
+            transform: scale(1.05);
+            transition: none;
+        } 
+    }
+
     #about-me {
         display: flex;
         flex-direction: row;
@@ -68,7 +97,7 @@ const IntroText = styled.div`
         margin-left: auto;
 
         > div:nth-child(1) {
-            align-self: end;
+            align-self: center;
         }
 
         > div:nth-child(2) {
@@ -157,6 +186,15 @@ const IntroText = styled.div`
             margin: 0 auto;
             width: max-content;
         }
+
+        .about-me-buttons {
+            > button {
+                font-size: small;
+                margin: 10px;
+                margin-top: 40px;
+            }
+        }
+
         #about-me {
             flex-direction: column; 
             justify-content: center;
@@ -218,10 +256,18 @@ class Intro extends React.Component {
     constructor(props) {
         super(props)
         this.handleClick = this.handleClick.bind(this)
+        this.handleButtonNav = this.handleButtonNav.bind(this)
     }
 
     handleClick() {
         document.getElementById('tech-stack').scrollIntoView()
+    }
+
+    handleButtonNav(e) {
+        let name = e.target.name || 'projects'
+        if(name !== 'resume') {
+            document.getElementById(name).scrollIntoView()
+        }
     }
     
     render() {
@@ -266,6 +312,11 @@ class Intro extends React.Component {
                                 If you are looking for a curious and adaptible 
                                 team player. Then, I'm the man for the job.
                             </p>
+                            <div className="about-me-buttons">
+                                <button name="projects" onClick={this.handleButtonNav}>Projects</button>
+                                <button name="contact" onClick={this.handleButtonNav}>Contact</button>
+                                <button name="resume" onClick={this.handleButtonNav}>Resume</button>
+                            </div>
                         </div>
                     </div>
                 </IntroText>

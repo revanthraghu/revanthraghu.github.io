@@ -54,7 +54,7 @@ const Icons = styled.div`
 
 function Libraries() {
     return (
-        <Icons>
+        <Icons id="tech-stack">
             <figure>
                 <img src="html5.svg" alt="" />
                 <figcaption>HTML5</figcaption>
@@ -68,7 +68,7 @@ function Libraries() {
                 <figcaption>JAVASCRIPT</figcaption>
             </figure>
             <figure>
-                <img src="bootstrap.png" alt="" />
+                <img src="bootstrap.svg" alt="" />
                 <figcaption>BOOTSTRAP</figcaption>
             </figure>
             <figure>

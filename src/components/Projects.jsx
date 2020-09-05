@@ -35,7 +35,7 @@ function Projects() {
     return (
         <React.Fragment>
             <Heading>Projects</Heading>
-            <ProjectsGrid>
+            <ProjectsGrid id="projects">
                 <ProjectItem />
                 <div>
                     <a target="_blank" rel="noopener noreferrer" style={{width: '100%'}} href="https://purehangman.netlify.app/">

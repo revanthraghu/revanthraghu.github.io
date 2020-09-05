@@ -1,6 +1,6 @@
 import React from 'react';
 import Intro from './components/Intro'
-import IntroTemp from './components/IntroTemp'
+import Contact from './components/Contact'
 import Libraries from './components/Libraries';
 import Projects from './components/Projects'
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <React.Fragment>
       <Intro />
-      <IntroTemp />
+      <Contact />
       <Libraries />
       <Projects/>
     </React.Fragment>

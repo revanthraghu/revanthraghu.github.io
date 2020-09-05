@@ -11,7 +11,6 @@ const MainWrapper = styled.section`
     line-height: 1.7rem;
     padding: 20px;
     margin-bottom: 40px;
-
     h1 {
         font-size: 33px;
         font-weight: bold;
@@ -36,7 +35,7 @@ const MainWrapper = styled.section`
     }
 `
 
-const Contact = styled.div`
+const ContactWrapper = styled.div`
     display: flex;
     width: 100%;
     padding: 30px 0px;
@@ -61,10 +60,10 @@ const Contact = styled.div`
     }
 `
 
-function IntroTemp() {
+function Contact() {
     return (
-        <MainWrapper id="tech-stack">
-            <Contact>
+        <MainWrapper id="contact">
+            <ContactWrapper>
                 <div>
                     <i className="fas fa-map-marker-alt"></i>
                     Bangalore, India
@@ -77,9 +76,9 @@ function IntroTemp() {
                     <i className="fas fa-envelope"></i>
                     revabob@gmail.com
                 </div>
-            </Contact>
+            </ContactWrapper>
         </MainWrapper>
     )
 }
 
-export default IntroTemp
+export default Contact

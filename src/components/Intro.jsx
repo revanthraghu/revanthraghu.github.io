@@ -53,10 +53,10 @@ const IntroText = styled.div`
     padding: 30px 250px 0px 80px;
     color: white;
     > h1 {
-        font-size: 200px; 
+        font-size: 150px; 
         font-family: 'Righteous', cursive;
         text-align: left;
-        margin-left: 90px;
+        margin-left: 250px;
         width: max-content;
     }
 

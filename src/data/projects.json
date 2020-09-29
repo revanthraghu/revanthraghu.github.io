@@ -1,0 +1,51 @@
+[
+    {
+        "img": "/omdb_search.png",
+        "alt": "OMDB Search",
+        "heading": "OMDB Search",
+        "description": "A movies and series search engine using OMDB API.",
+        "demo": "https://omdbsearch.netlify.app/",
+        "github": "https://github.com/revanthraghu/masai-sprint-3"
+    },
+    {
+        "img": "/tic_tac_toe2.png",
+        "alt": "Tic Tac Toe",
+        "heading": "Tic Tac Toe",
+        "description": "Tic-tac-toe game with with a focus on minimalistic design.",
+        "demo": "https://paper-tic-tac-toe.netlify.app/",
+        "github": "https://github.com/revanthraghu/masai-sprint-4/"
+    },
+    {
+        "img": "/timer.png",
+        "alt": "Timer and Stopwatch",
+        "heading": "Timer and Stopwatch",
+        "description": "A clone of the google timer and stopwatch widget.",
+        "demo": "https://timer-stopwatch.netlify.app/",
+        "github": "https://github.com/revanthraghu/timer-stopwatch"
+    },
+    {
+        "img": "/todo.jpg",
+        "alt": "To-Do App",
+        "heading": "To-Do App",
+        "description": "To-do app with create, edit, delete functionality.",
+        "demo": "https://app-todo-react.netlify.app",
+        "github": "https://github.com/revanthraghu/masai-sprint-1"
+    },
+    {
+        "img": "/partake.jpg",
+        "alt": "e-Commerce Website Clone",
+        "heading": "e-Commerce Website Clone",
+        "description": "A clone of the Partake e-commerce website.",
+        "demo": "https://partake-clone.netlify.app/",
+        "github": "https://github.com/revanthraghu/masai-sprint-1"
+    },
+    {
+        "img": "/oneweather.png",
+        "alt": "One Weather",
+        "heading": "One Weather",
+        "description": "A web app that provides local weather data using openweather API.",
+        "demo": "https://oneweather.netlify.app/",
+        "github": "https://github.com/revanthraghu/one-weather/"
+    }
+
+]

@@ -8,9 +8,9 @@ function App() {
   return (
     <React.Fragment>
       <Intro />
-      <Contact />
       <Libraries />
       <Projects/>
+      <Contact />
     </React.Fragment>
   );
 }

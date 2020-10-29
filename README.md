@@ -1,3 +1,3 @@
 # Revanth's Portfolio
-View my portfolio at [revanthraghu.github.com](https://revanthraghu.github.com)
+View my portfolio at [revanthraghu.github.io](https://revanthraghu.github.io)
  - Built with React

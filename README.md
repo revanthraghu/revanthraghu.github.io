@@ -1,3 +1,3 @@
 # Revanth's Portfolio
-
-***work in progress***
+View my portfolio at [revanthraghu.github.com](https://revanthraghu.github.com)
+ - Built with React
